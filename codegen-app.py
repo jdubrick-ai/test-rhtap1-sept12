@@ -46,7 +46,7 @@ llm = ChatOpenAI(base_url=model_service,
                  api_key="EMPTY",
                  streaming=True)
 
-# Define the Langchain chain
+# Define the Langchain chain test change
 prompt = ChatPromptTemplate.from_template("""You are an helpful code assistant that can help developer to code for a given {input}. 
                                           Generate the code block at first, and explain the code at the end.
                                           If the {input} is not making sense, please ask for more clarification.""")
